@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Agenda IPS</title>
+
+<link rel="stylesheet" href="estilos.css">
+<link rel="manifest" href="manifest.json">
+
+</head>
+
+<body>
+
+<header>
+Agenda IPS
+</header>
+
+<div class="video-container">
+<iframe id="videoFrame" allowfullscreen></iframe>
+</div>
+
+<div class="botones">
+
+<button onclick="mostrarAlerta()">🔔 Alerta</button>
+<button onclick="abrirPagina()">🌐 Ver sitio IPS</button>
+<button onclick="verContenido()">📚 Contenido</button>
+<button onclick="compartirWhatsapp()">📲 Compartir</button>
+
+</div>
+
+<div class="contenido">
+<div id="alerta"></div>
+<div id="contenido"></div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
